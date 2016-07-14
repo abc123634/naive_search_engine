@@ -1,9 +1,7 @@
 # Naive_search_engine
----
 Naive search engine using AWS Lambda with Python runtime
 
 ## Preparation: building runtime environment on AWS Lambda
----
 - AWS  don't support most of the third-party libaries like Scikit stack(Scikit-learn, numpy, scipy). To make it worse, since that AWS Lambda is working on AWS linus instances, most of us can't just use the libaries in our local runtime environment (OSX, windows). So what then? We would have to complie the necessary libries using AWS EC2 service and combine them with our custom python module. Finally, zip them as a development package and upload it as a Lambda function.
 - (Raw) Process of building Scikit stack on AWS Lambda:
   1. Create an AWS EC2 instance

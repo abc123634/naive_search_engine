@@ -22,6 +22,8 @@ After all the required steps, I still encountered some minor issues and wast so 
 - In AWS Lambda console, make sure you have the lambda function and handler name according to your custome python file name and handler inside. For example, if your python file name is `hello_world.py` and the handler inside is `lambda_handler`, then your handler on AWS Lambda should be `hello_world.lambda_handler`.
 - If you're using MAC, delete all of your `./DStore` file in your development package before zip them in order to prevent invaild ELF error. 
 
+## Let's dive in!
+
 
 
 [Using Scikit-Learn In AWS Lambda]: https://serverlesscode.com/post/deploy-scikitlearn-on-lamba/
